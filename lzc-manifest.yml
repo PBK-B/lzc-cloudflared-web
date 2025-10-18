@@ -15,7 +15,7 @@ services:
   cloudflared:
     network_mode: host
     mark: 2025.9.1
-    image: registry.lazycat.cloud/u7842111934/wisdomsky/cloudflared-web:e58e296ca008b19d
+    image: ""
     # image: registry.lazycat.cloud/u7842111934/wisdomsky/cloudflared-web:95952a939c6c4dff
     # image: registry.lazycat.cloud/u7842111934/wisdomsky/cloudflared-web:b4a89e2558118c2a # wisdomsky/cloudflared-web:2025.7.0
     binds:
