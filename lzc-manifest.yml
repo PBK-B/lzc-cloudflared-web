@@ -23,6 +23,7 @@ services:
       - /lzcapp/var/config:/config
       # - /lzcapp/var/hosts:/etc/hosts
     environment:
+      - WEBUI_HOST=host.lzcapp
       - PROTOCOL=http2 # use protocol=http2 https://github.com/cloudflare/cloudflared/issues/1228#issuecomment-2586683258
       # https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/configure-tunnels/tunnel-with-firewall/
       # - EDGE_BIND_ADDRESS=198.41.192.27
